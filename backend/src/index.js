@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://your-vercel-domain.vercel.app" ],
+    origin: ["http://localhost:5173","fullstack-chat-app-master-phi.vercel.app"],
     credentials: true,
   })
 );
